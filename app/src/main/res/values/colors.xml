@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fbfbfd</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tab_checked">#ED6A2C</color>
+    <color name="tab_unchecked">#757575</color>
+
+    <!-- 淡灰 -->
+    <color name="dangrey">#CCCCCCCC</color>
+    <!-- 灰色 -->
+    <color name="grey">#999999</color>
+    <!-- 浅灰,不清楚,大家自己可以去找颜色的定义 -->
+    <color name="grey2">#888888</color>
+    <!-- 绿色 -->
+    <color name="green">#07bb07</color>
+</resources>

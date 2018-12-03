@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="IndexActivity">IndexActivity</string>
+    <string name="DemoActivity">DemoActivity</string>
+    <string name="SignalScanActivtiy">SignalScanActivtiy</string>
+    <string name="SettingsActivity">SettingsActivity</string>
+
+    <!-- Think Android Demo -->
+    <string name="DatabaseActivtiy">DatabaseActivtiy</string>
+    <string name="CacheActivtiy">CacheActivtiy</string>
+    <string name="CacheImageActivtiy">CacheImageActivtiy</string>
+    <string name="MvcActivtiy">MvcActivtiy</string>
+    <string name="HttpActivtiy">HttpActivtiy</string>
+
+    <string name="DownloadActivtiy">DownloadActivtiy</string>
+    <string name="DownloadMultiThreadActivtiy">DownloadMultiThreadActivtiy</string>
+    <string name="DownloadSimpleActivtiy">DownloadSimpleActivtiy</string>
+    <string name="DownloadSimpleTwoActivtiy">DownloadSimpleTwoActivtiy</string>
+
+    <string name="OtherActivtiy">OtherActivtiy</string>
+</resources>

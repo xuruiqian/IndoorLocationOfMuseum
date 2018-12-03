@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+    外层的线性布局设置为元素垂直摆放
+    那么当前线性布局中的内容都是垂直的
+    这里引入了color.xml文件中的淡灰色背景色
+ -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/dangrey">
+
+        <!--
+            第一个线性布局
+            style="@style/myteststyle" 引入了我们声明的一个样式
+            使得这个线性布局是-宽度占满父元素,顶部外边距15dp,背景色白色
+            而线性布局也有独有的一些属性高度为40dp,内容水平摆放
+        -->
+        <LinearLayout
+            style="@style/myteststyle"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ic_launcher"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/friendcacl"
+                android:layout_gravity="center_vertical"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ic_launcher"/>
+        </LinearLayout>
+
+
+        <!--
+            第二个线性布局也是引入了之前的myteststyle样式,但是这里高度设置为81dp,里面放置俩个线性布局
+            内容设置设置为垂直摆放
+        -->
+        <LinearLayout
+            style="@style/myteststyle"
+            android:layout_height="81dp"
+            android:orientation="vertical">
+            <!-- 扫一扫 -->
+            <!--
+                引入了style中的innerstyle样式 意思就是
+                设置宽度占满父元素,设置高度40dp,引入Android内置白色,设置内容水平摆放
+             -->
+            <LinearLayout style="@style/innerstyle">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/saoyisao"
+                    android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <!-- 中间线条 -->
+            <!--
+                这里一个ImageView控件用来代替扫一扫和摇一摇中间的线条,引入了imagestyle样式
+                设置宽度 295dp设置高度0.5dp,引入color中的声明为grey的颜色
+                设置当前元素在父元素的位置为水平居中
+             -->
+            <ImageView style="@style/imagestyle"/>
+            <!-- 摇一摇 -->
+            <!--
+                 与上面的扫一扫同样,引入了innerstyle样式
+                设置宽度占满父元素,设置高度40dp,引入Android内置白色,设置内容水平摆放
+             -->
+            <LinearLayout style="@style/innerstyle">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yaoyiyao"
+                    android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--
+            第三个与上面的线性布局大致都相同了,打击如果能看懂上面的,下面的布局都是相差无几的
+        -->
+        <LinearLayout
+            style="@style/myteststyle"
+            android:layout_height="81dp"
+            android:orientation="vertical">
+            <!-- 附近的人 -->
+            <LinearLayout style="@style/innerstyle">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop"
+                    android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+            <!-- 中间线条 -->
+            <ImageView style="@style/imagestyle"/>
+            <!-- 漂流瓶 -->
+            <LinearLayout style="@style/innerstyle">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game"
+                    android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- 第四个 -->
+        <LinearLayout
+            style="@style/myteststyle"
+            android:layout_height="81dp"
+            android:orientation="vertical">
+            <!-- 附近的人 -->
+            <LinearLayout style="@style/innerstyle">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aroundperson"
+                    android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+            <!-- 中间线条 -->
+            <ImageView style="@style/imagestyle"/>
+            <!-- 漂流瓶 -->
+            <LinearLayout style="@style/innerstyle">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/piaoping"
+                    android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

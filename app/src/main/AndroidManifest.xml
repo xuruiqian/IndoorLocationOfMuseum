@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.minusone.indoorlocationofmuseum.activity"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="4" />
+    <!-- 访问互联网权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!--android:theme="@style/AppTheme"-->
+    <application
+        android:name="com.ta.TAApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DemoActivity"></activity>
+        <activity android:name=".SignalScanActivtiy"></activity>
+        <activity android:name=".IndexActivity"></activity>
+        <activity android:name=".SettingsActivity"></activity>
+
+        <activity android:name=".demo.CacheActivtiy"></activity>
+        <activity android:name=".demo.DatabaseActivtiy"></activity>
+        <activity android:name=".demo.CacheImageActivtiy"></activity>
+        <activity android:name=".demo.MvcActivtiy"></activity>
+        <activity android:name=".demo.HttpActivtiy"></activity>
+        <activity android:name=".demo.DownloadActivtiy"></activity>
+        <activity android:name=".demo.DownloadMultiThreadActivtiy"></activity>
+        <activity android:name=".demo.DownloadSimpleActivtiy"></activity>
+        <activity android:name=".demo.DownloadSimpleTwoActivtiy"></activity>
+        <activity android:name=".demo.OtherActivtiy"></activity>
+
+        <receiver android:name="com.ta.util.netstate.TANetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="ta.android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
