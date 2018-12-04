@@ -104,12 +104,12 @@
         "source": "/Users/ruiqian.xu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/79836ea81384d2994810959d283cf876/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "/Users/ruiqian.xu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/79836ea81384d2994810959d283cf876/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_settings.png.flat",
         "source": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/res/drawable-hdpi/ic_action_settings.png"
+    },
+    {
+        "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "/Users/ruiqian.xu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/79836ea81384d2994810959d283cf876/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat",
@@ -428,12 +428,12 @@
         "source": "/Users/ruiqian.xu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/79836ea81384d2994810959d283cf876/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/Users/ruiqian.xu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/79836ea81384d2994810959d283cf876/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_exit.png.flat",
         "source": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/res/drawable-xhdpi/ic_action_exit.png"
+    },
+    {
+        "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/Users/ruiqian.xu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/79836ea81384d2994810959d283cf876/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -824,12 +824,12 @@
         "source": "/Users/ruiqian.xu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/79836ea81384d2994810959d283cf876/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "/Users/ruiqian.xu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/79836ea81384d2994810959d283cf876/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
         "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_exit.png.flat",
         "source": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/res/drawable-xxhdpi/ic_action_exit.png"
+    },
+    {
+        "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/Users/ruiqian.xu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/79836ea81384d2994810959d283cf876/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
