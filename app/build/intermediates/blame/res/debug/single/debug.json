@@ -252,6 +252,10 @@
         "source": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/layout_maps_navigation_content.xml.flat",
+        "source": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/res/layout/maps_navigation_content.xml"
+    },
+    {
         "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "/Users/ruiqian.xu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/79836ea81384d2994810959d283cf876/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
@@ -1686,6 +1690,10 @@
     {
         "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "/Users/ruiqian.xu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/79836ea81384d2994810959d283cf876/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/layout_maps_navigation.xml.flat",
+        "source": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/res/layout/maps_navigation.xml"
     },
     {
         "merged": "/Workspace/Development_Andriod/IndoorLocationOfMuseum/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",

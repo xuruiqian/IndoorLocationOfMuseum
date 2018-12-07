@@ -171,14 +171,14 @@ activity#com.minusone.indoorlocationofmuseum.activity.DemoActivity
 ADDED from /Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/AndroidManifest.xml:35:9-59
 	android:name
 		ADDED from /Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/AndroidManifest.xml:35:19-47
-activity#com.minusone.indoorlocationofmuseum.activity.SignalScanActivtiy
-ADDED from /Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/AndroidManifest.xml:36:9-65
-	android:name
-		ADDED from /Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/AndroidManifest.xml:36:19-53
 activity#com.minusone.indoorlocationofmuseum.activity.IndexActivity
-ADDED from /Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/AndroidManifest.xml:37:9-60
+ADDED from /Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/AndroidManifest.xml:36:9-60
 	android:name
-		ADDED from /Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/AndroidManifest.xml:37:19-48
+		ADDED from /Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/AndroidManifest.xml:36:19-48
+activity#com.minusone.indoorlocationofmuseum.activity.SignalScanActivtiy
+ADDED from /Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/AndroidManifest.xml:37:9-65
+	android:name
+		ADDED from /Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/AndroidManifest.xml:37:19-53
 activity#com.minusone.indoorlocationofmuseum.activity.SettingsActivity
 ADDED from /Workspace/Development_Andriod/IndoorLocationOfMuseum/app/src/main/AndroidManifest.xml:38:9-63
 	android:name

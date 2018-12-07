@@ -24,6 +24,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
             android:name="com.minusone.indoorlocationofmuseum.activity.SplashActivity"
@@ -35,8 +36,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.minusone.indoorlocationofmuseum.activity.DemoActivity" />
-        <activity android:name="com.minusone.indoorlocationofmuseum.activity.SignalScanActivtiy" />
         <activity android:name="com.minusone.indoorlocationofmuseum.activity.IndexActivity" />
+        <activity android:name="com.minusone.indoorlocationofmuseum.activity.SignalScanActivtiy" />
         <activity android:name="com.minusone.indoorlocationofmuseum.activity.SettingsActivity" />
         <activity android:name="com.minusone.indoorlocationofmuseum.activity.demo.CacheActivtiy" />
         <activity android:name="com.minusone.indoorlocationofmuseum.activity.demo.DatabaseActivtiy" />
